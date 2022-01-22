@@ -1,0 +1,8 @@
+file_demo=open("file_demo.txt")
+file_demo.read()
+print("file saved")
+file_demo.close()
+file_demo=open("file_demo.txt","a")
+file_demo.write("i live in khategaon")
+print("save")
+file_demo.close()
